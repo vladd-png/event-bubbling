@@ -1,0 +1,113 @@
+body {
+
+}
+
+.purple {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: solid 2px rebeccapurple;
+  height: 700px;
+  width: 700px;
+}
+
+.red {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: solid 2px firebrick;
+  height: 600px;
+  width: 600px;
+}
+
+.orange {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: solid 2px orange;
+  height: 500px;
+  width: 500px;
+}
+
+.yellow {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: solid 2px gold;
+  height: 400px;
+  width: 400px;
+}
+
+.green {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: solid 2px forestgreen;
+  height: 300px;
+  width: 300px;
+}
+
+.blue {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: solid 2px royalblue;
+  height: 200px;
+  width: 200px;
+}
+
+.black {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: solid 2px black;
+  height: 100px;
+  width: 100px;
+  text-align: center;
+}
+
+button {
+  margin-top: -35px;
+  margin-bottom: 15px;
+  color: white;
+  border-radius: 5px;
+}
+
+#text {
+  padding-bottom: 25px;
+}
+
+#purple-btn {
+  background-color: rebeccapurple;
+}
+
+#red-btn {
+  background-color: firebrick;
+}
+
+#orange-btn {
+  background-color: orange;
+}
+
+#yellow-btn {
+  background-color: gold;
+}
+
+#green-btn {
+  background-color: forestgreen;
+}
+
+#blue-btn {
+  background-color: royalblue;
+}
+
+#black-btn {
+  background-color: black;
+}

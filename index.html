@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>Event Bubbling</title>
+  </head>
+  <body>
+    <div class='purple'>
+      <button type='button' id='purple-btn'>Click Me!</button>
+      <div class='red'>
+        <button type='button' id='red-btn'>Click Me!</button>
+        <div class='orange'>
+          <button type='button' id='orange-btn'>Click Me!</button>
+          <div class='yellow'>
+            <button type='button' id='yellow-btn'>Click Me!</button>
+            <div class='green'>
+              <button type='button' id='green-btn'>Click Me!</button>
+              <div class='blue'>
+                <button type='button' id='blue-btn'>Click Me!</button>
+                <div class='black'>
+                  <p id='text'>A practice on Event Bubbling</p>
+                  <button type='button' id='black-btn'>Click Me!</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
