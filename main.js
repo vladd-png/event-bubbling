@@ -18,7 +18,8 @@ blackBtn.addEventListener('click', showBlack);
 
 // ------------- Function Declerations
 function showPurple() {
-  console.log('purple button clicked');
+  var purpleBox = document.querySelector('.purple')
+  purpleBox.style.backgroundColor = 'rebeccapurple';
 }
 function showRed() {
   console.log('red button clicked');
