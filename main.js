@@ -8,13 +8,13 @@ var blueBtn = document.getElementById('blue-btn');
 var blackBtn = document.getElementById('black-btn');
 
 // ------------- EventListeners
-purpleBtn.addEventListener('click', showPurple);
-redBtn.addEventListener('click', showRed);
-orangeBtn.addEventListener('click', showOrange);
-yellowBtn.addEventListener('click', showYellow);
-greenBtn.addEventListener('click', showGreen);
-blueBtn.addEventListener('click', showBlue);
-blackBtn.addEventListener('click', showBlack);
+// purpleBtn.addEventListener('click', showPurple);
+// redBtn.addEventListener('click', showRed);
+// orangeBtn.addEventListener('click', showOrange);
+// yellowBtn.addEventListener('click', showYellow);
+// greenBtn.addEventListener('click', showGreen);
+// blueBtn.addEventListener('click', showBlue);
+// blackBtn.addEventListener('click', showBlack);
 
 // ------------- Function Declerations
 function showPurple() {
