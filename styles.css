@@ -73,6 +73,10 @@ body {
   text-align: center;
 }
 
+div {
+  background-color: white;
+}
+
 button {
   margin-top: -35px;
   margin-bottom: 15px;
