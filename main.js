@@ -18,24 +18,31 @@ blackBtn.addEventListener('click', showBlack);
 
 // ------------- Function Declerations
 function showPurple() {
-  var purpleBox = document.querySelector('.purple')
+  var purpleBox = document.querySelector('.purple');
   purpleBox.style.backgroundColor = 'rebeccapurple';
 }
 function showRed() {
-  console.log('red button clicked');
+  var redBox = document.querySelector('.red');
+  redBox.style.backgroundColor = 'firebrick';
 }
 function showOrange() {
-  console.log('orange button clicked');
+  var orangeBox = document.querySelector('.orange');
+  orangeBox.style.backgroundColor = 'orange';
 }
 function showYellow() {
-  console.log('yellow button clicked');
+  var yellowBox = document.querySelector('.yellow');
+  yellowBox.style.backgroundColor = 'gold';
 }
 function showGreen() {
-  console.log('green button clicked');
+  var greenBox = document.querySelector('.green');
+  greenBox.style.backgroundColor = 'forestgreen';
 }
 function showBlue() {
-  console.log('blue button clicked');
+  var blueBox = document.querySelector('.blue');
+  blueBox.style.backgroundColor = 'royalblue';
 }
 function showBlack() {
-  console.log('black button clicked');
+  var blackBox = document.querySelector('.black');
+  blackBox.style.backgroundColor = 'black';
+  blackBox.style.color = 'white';
 }
